@@ -12,7 +12,7 @@ It uses only the Python3 standard library, so there is no need to install
 anything with pip.  I wrote and tested it with Python 3.14, so I recommend using
 at least that version, but it may work on older Python versions.
 
-```sh
+```
 $ .\podcast_runtime.py https://open.spotify.com/show/6EqvqiiuZnCY9YVYmKAojD?si=668e772a777840bf
 701 episodes, totaling 188 hours, 51 minutes
 written to Nihongo con Teppei Original Archives 1-700.csv
@@ -20,7 +20,7 @@ written to Nihongo con Teppei Original Archives 1-700.csv
 
 For all options, use `--help`:
 
-```sh
+```
 $ python3 .\podcast_runtime.py --help
 usage: podcast_runtime.py [-h] [--out OUT] [--limit LIMIT] [--pagesize PAGESIZE] [--stdout] PODCAST_URL_OR_ID
 
